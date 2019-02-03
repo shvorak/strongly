@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es5",
+    "pretty": true,
+    "sourceMap": true,
+    "declaration": false,
+    "alwaysStrict": true,
+    "lib": ["dom", "es2015", "es2015.symbol", "es2015.reflect"],
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "noEmitHelpers": false,
+    "importHelpers": false
+  },
+  "exclude": [
+    "node_modules",
+    "tests"
+  ],
+  "files" : [
+    "source/index.ts"
+  ]
+}
